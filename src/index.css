@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;500;600;700&display=swap');
+@font-face {
+  font-family: 'MyFont';
+  src: local('MyFont') , url(./images//HackneyPersonalUseOnly.ttf);
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x:hidden;
+  /* overflow-y: hidden; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* @font-face {
+  font-family: ;
+  src: local('MyFont'), url(./images//HackneyPersonalUseOnly.ttf) format('woff');
+ 
+} */
+

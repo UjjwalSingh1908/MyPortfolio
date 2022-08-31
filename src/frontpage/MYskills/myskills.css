@@ -1,0 +1,127 @@
+.myskills
+{
+    /* background: linear-gradient(to bottom, #252525 0%,  #040404 100%); */
+    width: 100vw;
+    min-height:100vh;
+    padding-top:30px;
+    padding-bottom: 80px;
+}
+.myskills .heading
+{
+    color: white;
+    font-family: myFont;
+    font-size: 30px;
+    letter-spacing: 2px;
+    /* margin-top: 50px; */
+    width: 100vw;
+    padding-left:3vw;
+    margin-top: 60px;
+}
+.myskills .label
+{
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+
+}
+.myskills img{
+    position: relative;
+    z-index: 10;
+    transition: all 0.2s;
+}
+.myskills img:hover
+{
+    transform: scale(1.1);
+}
+.myskills .content
+{
+    width: fit-content;
+    border-bottom: 1px solid #fff;
+   
+    margin-bottom: 50px;
+}
+.myskills .display2
+{
+    display: none;
+}
+.myskills .bg
+{
+    /* background:url('../../images/bg1.png'); */
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.myskills .cover
+{
+    
+    width: 100vw;
+    height: 90vh;
+    
+    position:absolute;
+    
+}
+.myskills .cover2
+{
+    background-position:center;
+    /* background-image: url("../../images/bg1.png"); */
+}
+.myskills img
+{
+    height: 100px;
+}
+.myskills .center
+{
+    text-align: center;
+}
+.myskills .padding
+{
+    padding-left: 20vw;
+    padding-right: 20vw;
+    margin-top: 10vh;
+}
+@media screen and (max-width: 1024px) {
+    .myskills .content
+    {
+        width: 30vw;
+    }
+    .myskills .heading
+    {
+        font-size: 25px;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .myskills .content
+    {
+        width: 60vw;
+        text-align: center;
+    }
+    .myskills .heading
+    {
+        font-size: 6vw;
+        padding-left: 20vw;
+    }
+    .myskills img
+    {
+        height: 10vh;
+    }
+    .myskills .display2
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .myskills .display2 div
+    {
+        margin-top: 10vh;
+    }
+    .myskills .display
+    {
+        display: none;
+    }
+    .myskills .label
+    {
+        margin-top: 2px !important;
+        font-size: 10px;
+    }
+  }

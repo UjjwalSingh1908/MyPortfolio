@@ -1,0 +1,79 @@
+
+.About{
+    /* background: linear-gradient(to top, #252525 0%,  #040404 100%); */
+    width: 100vw;
+    min-height: 100vh;
+    padding-top:30px;
+}
+
+.About .cover
+{
+    
+    width: 100vw;
+    height: 90vh;
+    
+    position:absolute;
+    opacity: 0.7;
+}
+.About .cover2
+{
+    background-position:center;
+    /* background-image: url("../../images/bg1.png"); */
+}
+.About .heading
+{
+    color: white;
+    font-family: myFont;
+    font-size: 30px;
+    letter-spacing: 2px;
+    /* margin-top: 50px; */
+    width: 100vw;
+    padding-left:3vw;
+    margin-top: 60px;
+}
+.About .content
+{
+    width: fit-content;
+    border-bottom: 1px solid #fff;
+   
+    margin-bottom: 50px;
+}
+.About .para
+{
+    color: white;
+    margin-left: 10vw ;
+    margin-right: 4vw;
+    margin-top:100px;
+    font-size:2.1vw;
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+@media screen and (max-width: 1024px) {
+    .About .content
+    {
+        width: 30vw;
+    }
+    .About .heading
+    {
+        font-size: 25px;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .About .content
+    {
+        width: 60vw;
+        text-align: center;
+    }
+    .About .heading
+    {
+        font-size: 6vw;
+        padding-left: 20vw;
+    }
+    .About .para{
+        font-size:5vw;
+        margin-top: 5vh;
+        text-align: justify;
+        margin-left: 5vw;
+        
+    }
+  }

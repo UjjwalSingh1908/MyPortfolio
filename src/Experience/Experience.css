@@ -1,0 +1,108 @@
+.Exp
+{
+    /* background: linear-gradient(to top, #252525 0%,  #040404 100%); */
+    height:100vh;
+   
+  
+}
+.Exp .up
+{
+    z-index: 3;
+}
+.Exp .low
+{
+    z-index: 0;
+}
+.Exp .arrows
+{
+    position:absolute;
+    
+    width: 90vw;
+    margin-left:5vw;
+    margin-right: 5vw;
+    z-index: 2;
+    height: 10px;
+}
+.Exp .bg2
+{
+    width: 100%;
+    height: 100vh;
+    left:50vw;
+    /* background:url('../images/bg1.png') ; */
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    position: absolute;
+}
+.Exp .rButton img
+{
+  width: 40px;
+}
+.Exp .lButton img
+{
+  width: 40px;
+}
+.Exp img{
+    width: 34vw;
+    height: 76vh;
+}
+.Exp .setting
+{
+    width: 100vw;
+    height: 70vh;
+}
+.Exp .bg
+{
+    width: 100%;
+    height: 100vh;
+    /* background:url('../images/bg1.png') ; */
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    position: absolute;
+}
+.Exp .heading
+{
+    color: white;
+    font-family: myFont;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    width: 100vw;
+    padding-left:3vw;
+}
+.Exp .content
+{
+    width: fit-content;
+    border-bottom: 1px solid #fff;
+   
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 1024px) {
+    .Exp .content
+    {
+        width: 30vw;
+    }
+    .Exp .heading
+    {
+        font-size: 25px;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .Exp .content
+    {
+        width: 60vw;
+        text-align: center;
+    }
+    .Exp .heading
+    {
+        font-size: 6vw;
+        padding-left: 20vw;
+    }
+    .Exp img{
+        width: 50vw;
+    }
+    .Exp .bg2{
+        display: none;
+    }
+  }

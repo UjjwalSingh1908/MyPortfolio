@@ -1,0 +1,99 @@
+.contact .heading
+{
+    color: white;
+    font-family: myFont;
+    font-size: 30px;
+    letter-spacing: 2px;
+    /* margin-top: 50px; */
+    width: 100vw;
+    padding-left:3vw;
+    margin-top: 60px;
+}
+.contact img:hover{
+ transform: scale(3px);
+}
+.contact .content
+{
+    width: fit-content;
+    border-bottom: 1px solid #fff;
+   
+    margin-bottom: 50px;
+}
+.contact .details
+{
+    position: relative;
+    z-index: 10;
+}
+.contact img{
+    transition: all ease-in-out 0.3s;
+}
+.contact a:hover img{
+    transform:scale(1.4);
+}
+.contact
+{
+    /* background: linear-gradient(to bottom, #252525 0%,  #000000 80%); */
+    width: 100vw;
+    height:50vh;
+    padding-top:30px;
+    overflow: hidden;
+}
+.contact .cover
+{
+    
+    width: 100vw;
+    height: 40vh;
+    
+    position:absolute;
+    
+}
+.contact .cover2
+{
+    background-position:center;
+    /* background-image: url("../../images/bg1.png"); */
+}
+.contact a img{
+    width: 45px;
+  
+    margin-left: 50px;
+    margin-right:50px;
+}
+.contact .center
+{
+    margin-top:60px;
+    color: white;
+    font-family: monospace;
+    font-size:20px;
+}
+.contact .center img{
+    width: 45px;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 576px) {
+    .contact .content
+    {
+        width: 60vw;
+        text-align: center;
+    }
+    .contact .padding
+    {
+        padding:1vw;
+    }
+    .contact .heading
+    {
+        font-size: 6vw;
+        padding-left: 20vw;
+    }
+    .contact
+    {
+        height: 100vh;
+    }
+    .contact img{
+        margin-top: 30px
+    }
+    .contact .center{
+        font-size: 3.5vw;
+    }
+  }
