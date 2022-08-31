@@ -17,16 +17,12 @@
 }
 
 .navbar-logo {
-    font-size: 1.5rem;
-    /* font-family: 'MyFont'; */
-    letter-spacing: 5px;
-    font-weight: 600;
-    color: #fff;
-    margin-top: 0px;
-    margin-left: 2rem;
-    cursor: pointer;
-    white-space: nowrap;
+       cursor: pointer;
+    transform: translate(100%, -40%);
+    width: 2.5rem;
+    height: auto;
 }
+
 
 
 
@@ -87,10 +83,7 @@
 
 @media screen and (max-width: 960px) {
 
-    /* .navbar-logo {
-        margin-top: 10px;
-    } */
-
+   
     .NavbarItems {
         height: 60px;
     }
@@ -133,15 +126,7 @@
         font-weight: 600;
     }
 
-    .navbar-logo {
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin-left: 0px;
-        transform: translate(25%, 50%);
-        font-size: 1.2rem;
-    }
-
+   
     .menu-icon {
         display: block;
         position: absolute;

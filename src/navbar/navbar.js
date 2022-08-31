@@ -36,7 +36,7 @@ class Navbar extends Component {
               }}
             >
                 <div>
-               <Link  className="flex-grow-1" to="landing" smooth={true} duration={1000}><p className="navbar-logo ">U S</p></Link></div>
+               <Link  className="flex-grow-1" to="landing" smooth={true} duration={1000}><img src="/assets/us.svg" className="navbar-logo " /></Link></div>
                 <div className="menu-icon" onClick={this.handleClick}>
                     {/* <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i> */}
 <div id="nav-icon1" className={this.state.clicked? 'open' : 'no'}>
